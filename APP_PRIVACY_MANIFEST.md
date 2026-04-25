@@ -31,8 +31,7 @@
 ## Contact Information
 If you have any questions about this privacy manifest or our data practices, please contact us at:
 
-**Email**: support@truezodiac.com
-**Address**: TrueZodiac, 1234 Privacy St., Privacy City, PC 12345
+**Email**: deltart369@gmail.com
 
 ---
 _Last updated: 2026-04-25_  
