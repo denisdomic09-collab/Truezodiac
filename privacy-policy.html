@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — TrueZodiac</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #5b3fb5;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f1a;
+      --text: #f0f0f5;
+      --muted: #a8a8b8;
+      --accent: #9d7fff;
+      --border: #2a2a3a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 {
+    font-size: 2em;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 36px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 1.05em;
+    margin-top: 24px;
+    color: var(--muted);
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9em;
+    margin-bottom: 32px;
+  }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  code {
+    background: rgba(127,127,127,0.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+  a { color: var(--accent); }
+  .highlight {
+    background: rgba(127,63,181,0.08);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: April 28, 2026</p>
+
+<div class="highlight">
+<strong>Summary in one sentence:</strong> TrueZodiac stores all your personal data locally on your device. Nothing is sent to our servers, because we don't have any servers. We don't track you, we don't sell your data, we don't share it with anyone.
+</div>
+
+<h2>1. Who we are</h2>
+<p>This Privacy Policy describes how the <strong>TrueZodiac</strong> mobile application ("the App", "we", "our") handles your information.</p>
+<p>TrueZodiac is a real-astronomy horoscope application based on the 13-sign zodiac system (including Ophiuchus). Bundle identifier: <code>com.truezodiac</code>.</p>
+
+<h2>2. Information we collect</h2>
+
+<h3>2.1 Information you provide</h3>
+<p>To calculate your real zodiac sign, ascendant, and birth chart, the App asks you to enter:</p>
+<ul>
+  <li>Your name</li>
+  <li>Date, time, and place of birth</li>
+  <li>Gender</li>
+  <li>Relationship status</li>
+  <li>Whether you have children</li>
+  <li>Professional field</li>
+  <li>Optional profile photo (selected from your photo library or taken with the camera)</li>
+  <li>Optional family members (additional profiles for whom you can calculate compatibility)</li>
+</ul>
+
+<p><strong>All this information is stored exclusively on your device</strong>, in the secure local storage of the App (UserDefaults, App Group, file system). It never leaves your iPhone.</p>
+
+<h3>2.2 Information we do NOT collect</h3>
+<ul>
+  <li>No analytics or usage tracking</li>
+  <li>No advertising identifier (IDFA)</li>
+  <li>No cross-app tracking</li>
+  <li>No third-party advertising networks</li>
+  <li>No third-party analytics SDKs (Firebase, Mixpanel, etc.)</li>
+  <li>No cloud backups managed by us</li>
+  <li>No social media tracking pixels</li>
+</ul>
+
+<h2>3. How astrological calculations work</h2>
+<p>All astrological calculations (real zodiac sign, ascendant, descendant, birth chart, transits, lunar phases, daily and weekly horoscopes) are performed <strong>entirely offline on your device</strong> using a proprietary astronomical engine based on IAU (International Astronomical Union) algorithms.</p>
+<p>Interpretive texts are stored locally as JSON files bundled with the App for Italian, English, and Spanish.</p>
+<p>No personal data, no birth data, and no calculation requests are ever sent to any external server.</p>
+
+<h2>4. Third-party services we use</h2>
+
+<p>The App uses three Apple services. We do not use any non-Apple third-party service.</p>
+
+<h3>4.1 Sign in with Apple</h3>
+<p>If you choose to sign in with your Apple ID, authentication is handled entirely by Apple. We receive only an opaque user identifier and (optionally, if you allow) a relay email address. The authentication token is stored in your iOS Keychain. We do not have user accounts on any server because we do not have any server.</p>
+<p>Apple's privacy policy applies: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
+
+<h3>4.2 Apple StoreKit (in-app purchases)</h3>
+<p>Premium subscriptions are processed exclusively by Apple via StoreKit 2. We never see, handle, or store your payment information. We only receive from Apple a confirmation that your subscription is active.</p>
+<p>You can manage and cancel your subscription at any time in <code>Settings → [Your Apple ID] → Subscriptions</code> on your iPhone.</p>
+
+<h3>4.3 Apple Local Notifications</h3>
+<p>The App schedules local notifications on your device (e.g., "Your daily horoscope is ready") using the iOS UserNotifications framework. These notifications are generated and delivered locally by your device. We do not send remote push notifications and we do not have a server capable of doing so.</p>
+
+<h2>5. iOS permissions we request</h2>
+
+<ul>
+  <li><strong>Camera</strong> — only if you choose to take a profile photo. The photo is stored locally.</li>
+  <li><strong>Photo Library</strong> — only if you choose to select a profile photo from your library.</li>
+  <li><strong>Location</strong> — optional, used only to autocomplete your place of birth during onboarding. The location is converted to a city name and discarded; no GPS coordinates are stored beyond the birth-place reference.</li>
+  <li><strong>Notifications</strong> — to deliver your daily horoscope as a local notification. You can disable these at any time in iOS Settings.</li>
+</ul>
+
+<p>You can revoke any permission at any time in <code>Settings → TrueZodiac</code>.</p>
+
+<h2>6. Widget and App Group</h2>
+<p>The TrueZodiac home-screen widget displays your daily horoscope. To do this, the widget reads data from a shared App Group container (<code>group.com.truezodiac</code>) on your device. This data never leaves your device.</p>
+
+<h2>7. How long we keep your data</h2>
+<p>Your data remains on your device for as long as the App is installed. You can delete all your data at any time by:</p>
+<ul>
+  <li>Using the "Delete all data" or "Reset" option inside the App settings, or</li>
+  <li>Uninstalling the App from your iPhone (this removes everything except keychain entries from Sign in with Apple, which you can manage in iOS Settings → Apple ID → Password & Security → Apps Using Apple ID)</li>
+</ul>
+
+<h2>8. Data sharing</h2>
+<p>We do not sell, rent, share, or disclose your personal data to any third party. We have no data to sell, share, or disclose, because all your data is on your device, not on our servers.</p>
+
+<h2>9. Children's privacy</h2>
+<p>The App is rated 4+ and is suitable for general audiences. We do not knowingly collect personal information from children. Since all data is entered manually by the user and stored locally on the device, no information is transmitted to us regardless of the user's age.</p>
+<p>Parents are encouraged to supervise children's use of the App and to manage iOS Screen Time and Family Sharing settings.</p>
+
+<h2>10. International users</h2>
+<p>The App is available worldwide. Since we do not collect or transmit any personal data to servers, no international data transfer occurs.</p>
+
+<h2>11. Your rights</h2>
+<p>Depending on your jurisdiction (GDPR, CCPA, or other), you may have the right to access, correct, delete, or port your personal data. Since all your data is stored locally on your device:</p>
+<ul>
+  <li><strong>Access</strong>: open the App to view your data.</li>
+  <li><strong>Correction</strong>: edit your profile in the App's settings.</li>
+  <li><strong>Deletion</strong>: use the in-app delete option or uninstall the App.</li>
+  <li><strong>Portability</strong>: contact us at the email below for instructions on exporting your local data.</li>
+</ul>
+
+<h2>12. Security</h2>
+<p>Your data is protected by iOS's standard sandboxing, encryption, and secure-storage mechanisms. Sensitive credentials (Sign in with Apple tokens) are stored in the iOS Keychain. We do not transmit data to external servers, eliminating an entire class of risks (server breaches, man-in-the-middle attacks, leaked databases).</p>
+
+<h2>13. Changes to this Privacy Policy</h2>
+<p>We may update this policy from time to time. The "Last updated" date at the top of this page will reflect the most recent change. Significant changes will be communicated through an in-app notice.</p>
+
+<h2>14. Contact</h2>
+<p>For any privacy-related question or request, contact us at:</p>
+<p><strong>Email:</strong> <a href="mailto:deltart369@gmail.com">deltart369@gmail.com</a></p>
+
+<h2>15. Governing law</h2>
+<p>This Privacy Policy is governed by the laws of <strong>Switzerland</strong>. Any disputes will be subject to the exclusive jurisdiction of the courts of Switzerland.</p>
+
+</div>
+</body>
+</html>
